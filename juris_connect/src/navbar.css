@@ -40,6 +40,7 @@ a {
     height: 0.2rem;
     margin: 0.4rem;
     background: #DB2B2F;
+    transition: 0.4s ease-in;
 }
 .nav_toggler{
     cursor: pointer;
@@ -55,9 +56,10 @@ a {
         right: 0;
         width: 50%;
         height: 93vh;
-        background: #d2d2d2;
+        background: #140A24;
         flex-direction: column;
         transform: translateX(100%);
+        transition: 0.5s ease-in;
     }
 }
 .login_btn {
@@ -70,4 +72,16 @@ a {
     width: 81px;
     gap: 10px;
 
+}
+.nav_active {
+    transform: translateX(0);  
+}
+.toggle .line1{
+    transform: rotate(-45deg) translate(-4px, 5px);
+}
+.toggle .line2{
+    opacity: 0;
+}
+.toggle .line3{
+    transform: rotate(45deg) translate(-4px, -5px);
 }
