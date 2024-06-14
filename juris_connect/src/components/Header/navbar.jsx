@@ -15,9 +15,9 @@ function Navbar() {
         <nav className="nav">
             <a href="#" className="nav_brand">JURISCONNECT</a>
             <ul className={active}>
-                <li className="nav_item"><a href="#" className="nav_link">Home</a></li>
-                <li className="nav_item"><a href="#" className="nav_link">Community Forum</a></li>
-                <li className="nav_item"><a href="#" className="nav_link">About Us</a></li>
+                <li className="nav_item"><a href="Home" className="nav_link">Home</a></li>
+                <li className="nav_item"><a href="Legalcon" className="nav_link">Community Forum</a></li>
+                <li className="nav_item"><a href="About" className="nav_link">About Us</a></li>
             </ul>
             <button className="login_btn">Login</button>
             <div onClick = {navToggle} className={toggleIcon}>

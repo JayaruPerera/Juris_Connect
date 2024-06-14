@@ -1,13 +1,28 @@
 import React from "react";
-import Navbar from "./components/navbar";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Legalcon from './pages/Legalcon';
 
-function App(props) {
+
+
+export default function App() {
     return (
+
         <div>
-            <Navbar />
+            <BrowserRouter>
+              <Routes>
+                <Route index element= {<Home />} />
+                <Route path="/home" element = {<Home />} />
+                <Route path="/about" element = {<About />} />
+                <Route path="/legalcon" element = {<Legalcon />} />
+
+              </Routes>
+            </BrowserRouter>
         </div>
+            
+        
     );
     
 }
 
-export default App;
