@@ -56,3 +56,6 @@
   .buttons{
     margin-top: 100px;
   }
+  .buttons button:hover {
+    background-color: #fad8d8;
+  }
