@@ -20,6 +20,38 @@ export default function Legalcon(){
           <img src={img1} alt="Description" />
         </div>
       </div>
+      <section>
+        <form>
+          <h2> Describe your situation</h2>
+          <h3>Ready to submit your question? Here's what we need from you</h3>
+          <div className='box'> 
+              <div className='input-box'>
+                <label>Heading</label>
+                <input type='text' className='field' placeholder='Enter your name' required/>
+
+              </div>
+              <div className='input-box'>
+                <label>Topic</label>
+                <input type='text' className='field' placeholder='Choose one' required/>
+
+              </div>
+              <div className='input-box'>
+                <label>Home town</label>
+                <input type='text' className='field' placeholder='Nearest city belong to this question' required/>
+
+              </div>
+               <div className='input-box'>
+                  <label>Description</label>
+                  <input type='text' className='field mess' placeholder='Briefly describe your question/problem' required/>
+
+              </div>
+               <div className='button'>
+               <button className='button-submit'>Submit</button>
+               <button className='button-cancel'>Cancel</button>
+              </div>
+          </div>
+        </form>
+      </section>
     </div>
     )
 }
