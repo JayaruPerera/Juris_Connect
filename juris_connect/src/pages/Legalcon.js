@@ -1,11 +1,12 @@
 import Navbar from '../components/Header/navbar'
 import "./Legalcon.css"
 import img1 from "../Assets/Legalcon.jpeg"
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 
 export default function Legalcon(){
     return(
-        <div>
+    <div>
       <Navbar />
       <div className="content">
         <div className="left">
@@ -45,6 +46,11 @@ export default function Legalcon(){
                   <input type='text' className='field mess' placeholder='Briefly describe your question/problem' required/>
                 
               </div>
+              <div className="warning-box">
+                 <i className="fas fa-exclamation-triangle"> Note</i>
+                 <p>JurisConect will not be responsible in case of any issues or discrepancies with the expert answer. All free questions will publish in the site for public knowledge sharing. You should not include any person or organization name and detail in the question which would affect the brand or reputation of the other party.</p>
+              </div>
+
               <div className="checkbox-container">
                    <input type="checkbox" id="agree" name="agree" />
                    <label htmlFor="agree">I have read the notice and i hold the responsibility for the details provided here.</label>
@@ -56,6 +62,7 @@ export default function Legalcon(){
           </div>
         </form>
       </section>
+      
     </div>
     )
 }

@@ -68,7 +68,7 @@
   form{
     
     width: 701px;
-    height: 915px;
+    height: 870px;
     padding: 25px 25px 30px 30px;
     border-radius: 10px;
     top: 539px;
@@ -96,7 +96,7 @@
   border-radius: 20PX;
   padding: 10px;
   width: 800px;
-  height: 800px;
+  height: 870px;
   margin-top: 30px;
   }
   .input-box .field{
@@ -128,6 +128,7 @@
     padding: 12px 15px 12px 15px;
     gap: 10px;
     color: #140A24;
+    cursor: pointer;
     font-weight: bold;
    margin-right: 15px;
   }
@@ -141,6 +142,7 @@
     background-color: #140A24;
     color: #ffffff;
     font-weight: bold;
+    cursor: pointer;
    margin-right: 15px;
    margin-left: 12px;
   }
@@ -155,4 +157,24 @@
   }
   .checkbox-container label {
     margin-left: 0.5em;
+  }
+  .warning-box{
+    margin-top: 15px;
+     width: 752px;
+      height: auto;
+      background: #e0e0e0;
+      border: #ffffff;
+      outline: none;
+      border-radius: 14px;
+      padding: 15px;
+      font-size: 16px;
+      margin-top: 8px;
+      margin-left: 10px;
+  }
+  .warning-box p{
+    font-size: 12px;
+  }
+  .warning-box i {
+    margin-bottom: 1px; 
+    color: #721c24;
   }
