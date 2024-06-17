@@ -43,7 +43,11 @@ export default function Legalcon(){
                <div className='input-box'>
                   <label>Description</label>
                   <input type='text' className='field mess' placeholder='Briefly describe your question/problem' required/>
-
+                
+              </div>
+              <div className="checkbox-container">
+                   <input type="checkbox" id="agree" name="agree" />
+                   <label htmlFor="agree">I have read the notice and i hold the responsibility for the details provided here.</label>
               </div>
                <div className='button'>
                <button className='button-submit'>Submit</button>

@@ -95,12 +95,12 @@
   box-shadow: 0 0 10px rgb(216, 197, 197);
   border-radius: 20PX;
   padding: 10px;
-  width: 700px;
+  width: 800px;
   height: 800px;
   margin-top: 30px;
   }
   .input-box .field{
-      width: 652px;
+      width: 752px;
       height: 60px;
       background: #e0e0e0;
       border: #ffffff;
@@ -147,4 +147,12 @@
   input::placeholder {
     color: gray;
     opacity: 1;  
+  }
+  .checkbox-container {
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+  }
+  .checkbox-container label {
+    margin-left: 0.5em;
   }
