@@ -6,7 +6,7 @@ export default function Footer() {
         <footer className="footer">
             <div className="footer-container">
                 <div className="footer-section logo-section">
-                    <h1>JurisConnect</h1>
+                    <h2>JurisConnect</h2>
                     <p>Get personalized legal advice by asking your questions directly or explore educational videos posted by our expert lawyers.</p>
                 </div>
                 <div className="footer-section services-section">
@@ -37,6 +37,7 @@ export default function Footer() {
                     </div>
                 </div>
             </div>
+            <hr className="custom-line"/>
             <div className="footer-bottom">
                 <p>© 2024 JurisConnect. All rights reserved.</p>
                 <ul>
