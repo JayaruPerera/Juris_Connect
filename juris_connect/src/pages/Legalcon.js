@@ -2,6 +2,7 @@ import Navbar from '../components/Header/navbar'
 import "./Legalcon.css"
 import img1 from "../Assets/Legalcon.jpeg"
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import Footer from '../components/Footer/Footer';
 
 
 export default function Legalcon(){
@@ -60,9 +61,17 @@ export default function Legalcon(){
                <button className='button-cancel'>Cancel</button>
               </div>
           </div>
+          
         </form>
+        
       </section>
       
+            <Footer />
+          
+      
+      
     </div>
+    
+
     )
 }

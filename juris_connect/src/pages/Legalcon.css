@@ -68,12 +68,15 @@
   form{
     
     width: 701px;
+    
     height: 870px;
     padding: 25px 25px 30px 30px;
     border-radius: 10px;
     top: 539px;
     left: 120px;
     margin-left: 70px;
+    margin-bottom: 160px;
+  
 
   }
   form h2 {
@@ -98,13 +101,13 @@
   width: 800px;
   height: 870px;
   margin-top: 30px;
+   
   }
   .input-box .field{
       width: 752px;
       height: 60px;
       background: #e0e0e0;
-      border: #ffffff;
-      
+      border: #ffffff; 
       outline: none;
       border-radius: 14px;
       padding: 15px;
@@ -178,3 +181,4 @@
     margin-bottom: 1px; 
     color: #721c24;
   }
+ 

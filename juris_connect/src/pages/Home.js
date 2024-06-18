@@ -1,3 +1,4 @@
+import Footer from '../components/Footer/Footer'
 import Navbar from '../components/Header/navbar'
 
 
@@ -8,6 +9,7 @@ export default function Home(){
         <h2>
             home page
         </h2>
+        <Footer />
         </>
     )
 }
